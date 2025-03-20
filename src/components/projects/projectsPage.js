@@ -1,7 +1,7 @@
 import React from "react"
 import HeroImage from "../../images/culture_camp.jpg"
 import HeroImage2 from "../../images/lang_revival.jpg"
-import HeroImage3 from "../../images/basket.jpg"
+import HeroImage3 from "../../images/HMS logo_clear_bg.png"
 
 const ProjectsPage = () => {
   return (

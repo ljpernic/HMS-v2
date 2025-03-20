@@ -2,9 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import JoinImage1 from "../../images/fishing.jpg"
+import JoinImage1 from "../../images/HMS logo_clear_bg.png"
 import JoinImage2 from "../../images/basket_2.jpg"
-import JoinImage3 from "../../images/stickball.jpg"
+import JoinImage3 from "../../images/HMS logo_clear_bg.png"
 
 const JoinImages = () => {
   return (
