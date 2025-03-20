@@ -1,35 +1,35 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import hero from "../../images/removed-Holographic.webp"
+import hero from "../../images/HMS logo_clear_bg.png"
 
 const Header = () => {
   return (
     <Fade duration={2200}>
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3">
-        <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
+        <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-6 sm:px-6 md:mt-14 lg:mt-14 lg:px-0 xl:mt-14 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-4xl font-semibold opacity-70">
-              MY NAME IS HOLO
-            </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Hi there!
+            <h2 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+              Ho Minti Society
             </h2>
+            <h1 className="text-black text-4xl font-semibold opacity-70">
+              An Indigenous Community Organization
+            </h1>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
+              Ho Minti is a Choctaw phrase meaning y'all come. As a non-profit community organization, Ho Minti Society calls for a coming back together and returning to traditional American Indian ways of knowing and doing. The name also suggests a kind of in-gathering and renewal that we believe is necessary for our nation and culture to survive and prosper.
+            </p>
+            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              The purpose of Ho Minti Society is to promote cultural awareness, service, community organizing, and education in ways that respect traditional knowledge and the breadth of our history and heritage. We organize regular activities for members and the community at large.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
                 <a
-                  href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  href="/about"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-sky text-white hover:text-black border border-sky hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  Contact Us
+                  About
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -49,10 +49,10 @@ const Header = () => {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  href="/join"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-black text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-sky md:py-3 md:text-lg md:px-10"
                 >
-                  Get To Know Us
+                  Join
                 </a>
               </div>
             </div>

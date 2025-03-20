@@ -1,52 +1,21 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/HMS logo_clear_bg.png"
 
 const Footer = () => {
   return (
     <div className="m-4">
       <div className="max-w-7xl mx-auto mt-10 h-auto lg:mb-8 sm:mb-4 xs:mb-4 xxs:mb-4">
-        <div className="footer bg-gradient-to-r from-pink to-purple p-10 mt-10 rounded-xl">
+        <div className="footer bg-gradient-to-r from-sky to-darksky p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
-              <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
-                <br></br>
-                built with Gatsby.
-              </p>
+              <img className="max-h-56 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-white text-lg font-bold mt-20">
-                <span className="text-black font-montserrat font-semibold mt-20">
+                <span className="text-white font-montserrat font-semibold mt-20">
                   &copy; {new Date().getFullYear()}. All Rights Reserved.
                 </span>
               </p>
-              <div className="text-black font-bold block-inline">
-                <p>
-                  <a className="text-black font-bold block-inline" href="/">
-                    Holo
-                  </a>
-
-                  <a
-                    className="text-black font-semibold ml-1"
-                    target="_blank"
-                    href="https://travislord.xyz"
-                  >
-                    By TL
-                  </a>
-                  <a
-                    href="https://github.com/lilxyzz/holo-theme"
-                    target="_blank"
-                  >
-                    <img
-                      className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
-                      alt="GitHub"
-                    ></img>
-                  </a>
-                </p>
-              </div>
             </div>
 
             <div className="place-self-end self-center xxs:hidden lg:block">
@@ -55,16 +24,22 @@ const Footer = () => {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
+                  <Link to="/projects">Projects</Link>
+                </li>
+                {/* <li>
+                  <Link to="/events">Events</Link>
+                </li> */}
+                <li>
+                  <Link to="/scholarships">Scholarships</Link>
+                </li>                                
+                <li>
                   <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">Gallery</Link>
-                </li>{" "}
-                <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/join">Join</Link>
                 </li>
               </ul>
             </div>

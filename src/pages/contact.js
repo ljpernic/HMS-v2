@@ -5,7 +5,7 @@ import Button from "../components/Atoms/button"
 import Fade from "react-reveal/Fade"
 import Seo from "../components/seo"
 
-import image from "../images/holographic-background.webp"
+import image from "../images/biscuits_sideways.jpg"
 
 const Contact = () => {
   return (
@@ -17,14 +17,12 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
-          <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
-            <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+          <div className="bg-gradient-to-r from-darksky to-sky opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
+            <h1 className="text-4xl text-white">CONTACT</h1>
+            <h2 className=" text-white text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
+              Ho Minti Society
             </h2>
-            <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
-            </p>
+
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
               <div className="flex flex-wrap">
@@ -50,10 +48,10 @@ const Contact = () => {
                     </div>
                     <div className="ml-2 grow">
                       <p className="mb-2 font-bold underline decoration-pink">
-                        Phone
+                        Facebook
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="https://www.facebook.com/HoMintiSociety/">Facebook page</a>
                       </p>
                     </div>
                   </div>
@@ -83,8 +81,8 @@ const Contact = () => {
                         Email
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                        <a href="mailto:homintisociety@gmail.com?subject=Contact - Ho Minti Society">
+                          homintisociety@gmail.com
                         </a>
                       </p>
                     </div>
@@ -114,7 +112,7 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Location
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Ho Minti Society<br />Attn: Pam Cartinez<br />886 Garcie Road<br />Zwolle, LA 71486</p>
                     </div>
                   </div>
                 </div>
@@ -139,78 +137,14 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="ml-2 grow">
-                      <p className="mb-2 font-bold underline decoration-pink">
-                        Opening Hours
-                      </p>
-                      <p className="text-neutral-500 mb-2">24/7</p>
+                      <p className="text-neutral-500 mb-2">Or use the form below!</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <form className="mt-5" name="contact" method="POST" netlify>
-              <div className="flex xxs:flex-col sm:flex-row">
-                <div className="sm:mr-5 xxs:mr-0">
-                  <label>
-                    <Input
-                      placeholder="Your Name"
-                      type="text"
-                      name="name"
-                    ></Input>
-                  </label>
-                </div>
-                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <label>
-                    <Input
-                      placeholder="Your Email"
-                      type="email"
-                      name="email"
-                    ></Input>
-                  </label>
-                </div>
-              </div>
-
-              <div className="flex mt-5 xxs:flex-col sm:flex-row">
-                <div className="sm:mr-5 xxs:mr-0">
-                  <label>
-                    <Input
-                      placeholder="Your Company"
-                      type="company"
-                      name="company"
-                    ></Input>
-                  </label>
-                </div>
-                <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <label>
-                    {" "}
-                    <Input
-                      placeholder="Your Phone"
-                      type="phone"
-                      name="phone"
-                    ></Input>
-                  </label>
-                </div>
-              </div>
-              <label>
-                <textarea
-                  className="mt-5 w-full bg-bg bg-opacity-20 rounded-xl p-5 focus:outline-none focus:ring-2 focus:ring-purple focus:border-transparent"
-                  rows="5"
-                  placeholder="How can we help you?"
-                  type="text"
-                  name="Message"
-                ></textarea>
-              </label>
-              <div>
-                <label>
-                  <Button
-                    type="submit"
-                    title="Send Message"
-                    colorClass="bg-gradient-to-r from-pink to-purple font-montserrat"
-                    marginClass="mt-5"
-                  ></Button>
-                </label>
-              </div>
-            </form>
+            <iframe src="https://www.cognitoforms.com/f/GtTjHOYx10OF7APqunHRFw/8" allow="payment" style={{"border":"0", "width":"100%", "height":"600px"}} height="511"></iframe>
+<script src="https://www.cognitoforms.com/f/iframe.js"></script>
           </div>
         </Fade>
         <Fade bottom cascade>

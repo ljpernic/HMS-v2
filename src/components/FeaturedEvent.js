@@ -1,32 +1,27 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-const FeaturedBlog = () => {
+const FeaturedEvent = () => {
   return (
     <Fade duration={2200}>
       <div className="bg-transparent">
         <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
-          <h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
-            STAY UP TO DATE
-          </h2>
-          <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-            Latest Posts
-          </h3>
-          <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
-            <h2 className="text-black text-3xl font-simibold mb-2">
+          <h2 class="text-black text-4xl font-bold">Latest Events</h2>
+          <div className="event-hover bg-gradient-to-r from-sky to-darksky border mt-10 border-gray-600 rounded-lg p-8 md:p-12 mb-8">
+            <h2 className="text-white text-3xl font-semibold mb-2">
               Lorem ipsum is simply dummy text
             </h2>
-            <p className="text-lg  text-black opacity-60 mb-6">
+            <p className="text-lg  text-white opacity-100 mb-6">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
             <a
-              href="/blog/blog-post"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
+              href="/event/event-post"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-white hover:text-white rounded-lg border border-sky  hover:bg-sky"
             >
-              Continue Reading
+              Read more
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"
@@ -45,7 +40,7 @@ const FeaturedBlog = () => {
             </a>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
+            <div className="event-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
                 Lorem ipsum is simply dummy text
               </h2>
@@ -56,10 +51,10 @@ const FeaturedBlog = () => {
                 of type and scrambled it to make a type specimen book.
               </p>
               <a
-                href="/blog/blog-post-1"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
+                href="/event/event-post-1"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-sky  hover:bg-sky"
               >
-                Continue Reading
+                Read more
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -77,7 +72,7 @@ const FeaturedBlog = () => {
                 </svg>
               </a>
             </div>
-            <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
+            <div className="event-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
                 Lorem ipsum is simply dummy text
               </h2>
@@ -88,10 +83,10 @@ const FeaturedBlog = () => {
                 of type and scrambled it to make a type specimen book.
               </p>
               <a
-                href="/blog/blog-post-2"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
+                href="/event/event-post-2"
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-sky  hover:bg-sky"
               >
-                Continue Reading
+                Read more
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -116,4 +111,4 @@ const FeaturedBlog = () => {
   )
 }
 
-export default FeaturedBlog
+export default FeaturedEvent

@@ -1,9 +1,9 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import Image3 from "../../images/dancers.webp"
+import Image3 from "../../images/keychain_banner.webp"
 
-const AboutHeader = () => {
+const ScholarshipsHeader = () => {
   return (
     <Fade>
       <div className="max-w-7xl mx-auto mt-10">
@@ -15,4 +15,4 @@ const AboutHeader = () => {
   )
 }
 
-export default AboutHeader
+export default ScholarshipsHeader

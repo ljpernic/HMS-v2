@@ -12,6 +12,12 @@ module.exports = {
     },
     colors: {
       black: colors.black,
+      sky: "#2585b7",
+      lightsky: "#4dabdb",
+      darksky: "#185777",
+      red: "#EF4444",
+      yellow: "#fad107",
+      blue: colors.blue,
       purple: "#827fb9",
       pink: "#aaafeb",
       darkpurple: "#634880",

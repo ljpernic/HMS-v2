@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
-  // const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  // const eventPost = path.resolve(`./src/templates/event-post.js`)
   return graphql(
     `
     {
@@ -31,17 +31,17 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
     const posts = result.data.allMarkdownRemark.edges
-    // Template For blog-post
-    const blogPost = posts.filter(item => item.node.frontmatter.templateKey === 'blog-post')
-    blogPost.forEach((post, index) => {
-      const previous = index === blogPost.length - 1 ? null : blogPost[index + 1].node
-      const next = index === 0 ? null : blogPost[index - 1].node
+    // Template For event-post
+    const eventPost = posts.filter(item => item.node.frontmatter.templateKey === 'event-post')
+    eventPost.forEach((post, index) => {
+      const previous = index === eventPost.length - 1 ? null : eventPost[index + 1].node
+      const next = index === 0 ? null : eventPost[index - 1].node
 
       createPage({
         // path: post.node.fields.slug.split('/').slice(2, -1).join('/') === '' ? '/' : `/${post.node.fields.slug.split('/').slice(2, -1).join('/')}`,
         path: post.node.fields.slug,
         component: path.resolve(
-          `src/templates/blog-post.js`
+          `src/templates/event-post.js`
         ),
         context: {
           slug: post.node.fields.slug,

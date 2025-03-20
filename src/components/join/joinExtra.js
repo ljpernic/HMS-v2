@@ -1,6 +1,6 @@
 import React from "react"
 
-const AboutExtra = () => {
+const JoinExtra = () => {
   return (
     <div className="max-w-7xl mx-auto mt-10">
       <div className="mt-10 px-8">
@@ -48,4 +48,4 @@ const AboutExtra = () => {
     </div>
   )
 }
-export default AboutExtra
+export default JoinExtra

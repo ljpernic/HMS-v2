@@ -1,11 +1,11 @@
 import React from "react"
-import BlogHeader from "../components/Blog/blogHeader"
-import BlogsContainer from "../components/Blog/blogsContainer"
+import EventHeader from "../components/Event/eventHeader"
+import EventsContainer from "../components/Event/eventsContainer"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { graphql } from "gatsby"
 
-const Blog = ({ data }) => {
+const Event = ({ data }) => {
   console.log("data", data)
   let HeaderPost = data?.allMarkdownRemark?.edges[0]
   let otherPosts = data?.allMarkdownRemark?.edges.slice(1)
@@ -13,21 +13,21 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <Seo
-        title="Holo - Blog"
+        title="Holo - Event"
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
       ></Seo>
-      <BlogHeader post={HeaderPost} />
-      <BlogsContainer data={otherPosts} />
+      <EventHeader post={HeaderPost} />
+      <EventsContainer data={otherPosts} />
     </Layout>
   )
 }
 
-export default Blog
+export default Event
 
 export const WorkPageQuery = graphql`
   query IndexPage {
     allMarkdownRemark(
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      filter: { frontmatter: { templateKey: { eq: "event-post" } } }
       limit: 30
       sort: { frontmatter: { date: DESC } }
     ) {

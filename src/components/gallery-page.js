@@ -9,7 +9,7 @@ const Gallery = () => {
     <div className="max-w-7xl mx-auto mt-10">
       <Fade duration={2200}>
         <div className="flex flex-row justify-space xxs:flex-col-reverse xs:flex-col-reverse sm:flex-row xxs:flex-col xs:flex-col sm:flex-row mb-5">
-          <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
+          <div className="max-h-80 w-1/2 flex flex-col justify-center bg-gradient-to-r from-sky to-darksky p-8 rounded-xl m-4 xxs:w-full xs:w-full sm:w-full lg:w-full">
             <h1 className="text-black opacity-70 text-4xl font-semibold">
               GALLERY
             </h1>

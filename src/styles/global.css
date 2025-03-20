@@ -24,7 +24,7 @@ a {
     color: white;
   }
   body {
-    background-color: hsla(243, 60%, 95%, 1);
+    background-color: hsla(243, 60%, 95%, .75);
   }
 }
 
@@ -53,7 +53,7 @@ body {
 /* mobile dropdown background */
 .md\:hidden {background-color: hsla(243, 60%, 95%, 1); border-radius: 0px 0px 10px 10px;}
 
-/* blog read more arrows */
+/* event read more arrows */
 .w-3\.5 {padding-left: 5px;}
 
 /* 404 page */ 

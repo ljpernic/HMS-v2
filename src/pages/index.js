@@ -4,21 +4,24 @@ import Layout from "../components/layout"
 // Components
 import Header from "../components/Home/header"
 import FeatureSection from "../components/Home/featureSection"
-import Testimonial from "../components/Home/testimonial"
-import FeaturedBlog from "../components/FeaturedBlog"
+import FeatureImages from "../components/Home/featureImages"
+// import Testimonial from "../components/Home/testimonial"
+import FeaturedEvent from "../components/FeaturedEvent"
 import Seo from "../components/seo"
 
 const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="Holo - Gatsby Theme"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        title="Ho Minti Society, An Indigenous Community Organization"
+        description="The purpose of Ho Minti Society is to promote cultural awareness, service, community organizing, and education in ways that respect traditional knowledge and the breadth of our history and heritage. We organize regular activities for members and the community at large."
       ></Seo>
-      <Header></Header>
+      {/* HEADER -> Top section */}
+      <Header></Header>                   
       <FeatureSection></FeatureSection>
-      <FeaturedBlog></FeaturedBlog>
-      <Testimonial></Testimonial>
+      <FeatureImages></FeatureImages>      
+      {/* <FeaturedEvent></FeaturedEvent> */}
+      {/* <Testimonial></Testimonial> */}
     </Layout>
   </div>
 )
