@@ -1,9 +1,9 @@
 {
-  "name": "Ho Minti Society",
+  "name": "Ho-Minti-Society-Website",
   "private": true,
   "description": "Ho Minti Society is an Indigenous community organization that promotes cultural awareness, service, community organizing, and education in ways that respect traditional knowledge and the breadth of our history and heritage.",
   "version": "1.0.0",
-  "author": "Travis Lord <hi@travislord.xyz>",
+  "author": "Ho Minti Society <homintisociety@gmail.com>",
   "dependencies": {
     "@fontsource/montserrat": "^5.1.0",
     "@fontsource/noto-serif": "^5.1.0",
