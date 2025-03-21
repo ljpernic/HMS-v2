@@ -2,9 +2,9 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import FeatureImage1 from "../../images/HMS logo_clear_bg.png"
+import FeatureImage1 from "../../images/basket_2.jpg"
 import FeatureImage2 from "../../images/basket_2.jpg"
-import FeatureImage3 from "../../images/HMS logo_clear_bg.png"
+import FeatureImage3 from "../../images/basket_2.jpg"
 
 const FeatureImages = () => {
   return (
