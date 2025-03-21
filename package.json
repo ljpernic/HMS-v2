@@ -1,7 +1,7 @@
 {
-  "name": "Ho Minti Society",
+  "name": "Holo-Gatsby-Theme",
   "private": true,
-  "description": "Ho Minti Society is an Indigenous community organization that promotes cultural awareness, service, community organizing, and education in ways that respect traditional knowledge and the breadth of our history and heritage.",
+  "description": "Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS.",
   "version": "1.0.0",
   "author": "Travis Lord <hi@travislord.xyz>",
   "dependencies": {

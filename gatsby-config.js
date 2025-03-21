@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Ho Minti Society`,
-    description: `Ho Minti Society is an Indigenous community organization that promotes cultural awareness, service, community organizing, and education in ways that respect traditional knowledge and the breadth of our history and heritage.`,
-    siteUrl: "https://www.homintisociety.org/",
-    author: `Ho Minti Society <homintisociety.org>`,
+    title: `Holo - Gatsby Starter`,
+    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
+    siteUrl: "https://holo-theme.netlify.app/",
+    author: `Travis Lord <hi@travislord.xyz>`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -79,8 +79,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ho Minti Society`,
-        short_name: `HMS`,
+        name: `Holo - Gatsby Starter Theme`,
+        short_name: `Holo`,
         start_url: `/`,
         background_color: `#ebebfa`,
         theme_color: `#ebebfa`,
