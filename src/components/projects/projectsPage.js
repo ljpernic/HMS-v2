@@ -180,7 +180,7 @@ const ProjectsPage = () => {
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 sm:text-center lg:text-left flex-col justify-center">
             <h3 className="text-black text-3xl font-bold xxs:text-2xl xs:text-3xl sm:text-3xl lg:text-3xl text-gradient bg-black">
-              Self-defence
+              Self-defense
             </h3>
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:ml-0">
             Indigenous women and girls face a staggering onslaught of personal violence.

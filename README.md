@@ -1,8 +1,8 @@
 
- <h1 align="center">Holo - Gatsby Theme </h1>
+ <h1 align="center">Ho Minti Society </h1>
 
 
-![Holo - Gatsby Theme](https://github.com/lilxyzz/holo-theme/blob/main/static/img/holo-cover.png)
+![Ho Minti Society](https://github.com/lilxyzz/holo-theme/blob/main/static/img/holo-cover.png)
 
 Welcome to the ultimate blend of technologies that promises to revolutionize your web development experience. The Holo template is designed to kickstart your project with elegance and efficiency.
 
@@ -20,6 +20,7 @@ To embark on your development adventure, follow these simple steps:
 
 **Clone this repository**
 
+Original template:
 ```git clone https://github.com/lilxyzz/holo-theme.git```
 
 **Navigate into the repository**

@@ -13,8 +13,8 @@ const Event = ({ data }) => {
   return (
     <Layout>
       <Seo
-        title="Holo - Event"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+        title="Event - Ho Minti Society"
+        description="Ho Minti Society is an Indigenous community organization that promotes cultural awareness, service, community organizing, and education in ways that respect traditional knowledge and the breadth of our history and heritage."
       ></Seo>
       <EventHeader post={HeaderPost} />
       <EventsContainer data={otherPosts} />

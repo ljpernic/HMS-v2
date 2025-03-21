@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer bg-gradient-to-r from-sky to-darksky p-10 mt-10 rounded-xl">
           <div className="grid grid-cols-2 xxs:grid-cols-1 lg:grid-cols-2">
             <div>
-              <img className="max-h-56 max-w-xs" src={logo} alt="Holo"></img>
+              <img className="max-h-56 max-w-xs" src={logo} alt="Ho Minti Society"></img>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-white font-montserrat font-semibold mt-20">
                   &copy; {new Date().getFullYear()}. All Rights Reserved.
