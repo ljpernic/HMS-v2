@@ -11,7 +11,7 @@ const WorkPage = () => {
           Why Ho Minti Society?
         </h2>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Ho Minti is a Choctaw phrase that means “y'all come.” We call for a coming back together and a return to traditional American Indian 
+          Ho Minti is a Choctaw phrase meaning “y'all come.” We call for a coming back together and a return to traditional American Indian 
           ways of knowing and doing. The name also suggests a kind of in-gathering and renewal that we believe is necessary for our nation and 
           culture to both survive and prosper.
         </p>
