@@ -24,6 +24,15 @@ const FeatureSection = () => {
               Culture Camp
             </h3>
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+              <strong>Culture Camp 2025:</strong> Ho Minti Society is hosting our Third Annual Culture Camp at the beautiful North Toledo Bend State Park. The camp this 
+              year will be all day June 22-25, inclusive, and camp hours are from 8:00 am to 6:00 pm (overnight option available with supervision of parents/guardians). 
+              We will include the link to the full schedule prior to camp.
+            </p>
+            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+              <strong>Payment Method:</strong> $25 (check, money order or PayPal). Paypal is HoMintiSociety@gmail.com. Checks and money orders can be mailed to Ho 
+              Minti Society, 886 Garcie Rd, Zwolle, LA 71486. 
+            </p>
+            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
               The preservation of our culture and its transmission to the future generations of our community is at the heart of Ho Minti Society's 
               mission. Each June, we gather tribal children aged 7-17 from across Louisiana and beyond to learn traditional practices, to 
               build community, and to have fun!
@@ -38,13 +47,14 @@ const FeatureSection = () => {
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
               Volunteers and donations are deeply appreciated!  
             </p>            
+
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
-              {/* <div className="mt-3 sm:mt-0 sm:ml-3">
+              <div className="rounded-md">
                 <a
-                  href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-sky text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-sky md:py-3 md:text-lg md:px-10"
+                  href="https://tinyurl.com/culturecamp2025"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-sky text-white hover:text-black border border-sky hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  See more
+                  Register
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -61,7 +71,7 @@ const FeatureSection = () => {
                     />
                   </svg>
                 </a>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
