@@ -282,6 +282,9 @@ const ScholarshipsPage = () => {
             Tribal Policy, Healthcare, Environment
           </a>
         </li>
+        <a>
+          Text Update.
+        </a>
         </ul>        
       </div>
     </div>
